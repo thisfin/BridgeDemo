@@ -1,0 +1,11 @@
+platform :ios, '8.0'
+use_frameworks!
+
+def pods
+    pod 'Then'
+    pod 'FrameworkDemo', :path => '../FrameworkDemo'
+end
+
+target 'ProjectDemo' do
+    pods
+end
