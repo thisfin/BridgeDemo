@@ -28,7 +28,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
 
         SwiftCall().call()
-        ObjectiveCPublish().call()
+        ObjectiveCCall().call()
 
         return true
     }
